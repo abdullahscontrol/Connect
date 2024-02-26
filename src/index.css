@@ -17,7 +17,7 @@ body {
   top: 0rem;
   left: 0;
   right: 0;
-  background-image: url(background.jpg);
+  background-image: url(/public/background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   border: 3px solid #fff;
