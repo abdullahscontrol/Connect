@@ -6,7 +6,7 @@ const cardData = [
         cardContent: "Consolidational link in one location"
     },
     {
-        cardImage: "./src/icons/instant-icon.png",
+        cardImage: "/src/icons/instant-icon.png",
         cardTitle: " Instant Access",
         cardContent: "Your contacts can now reach you directly on their preferred platform with single click"
     }, {
