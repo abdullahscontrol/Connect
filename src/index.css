@@ -43,11 +43,12 @@ body {
   padding-left: 5rem;
   padding-right: 5rem;
 }
-.section .title{
+
+.section .title {
   position: fixed;
   top: 2rem;
   left: 5rem;
-  height:auto;
+  height: auto;
   /* color: red; */
   width: 40%;
   /* background-color: #fff; */
@@ -56,17 +57,20 @@ body {
   padding: 1rem;
   /* box-shadow: 2px 2px 10px darkblue; */
 }
-.section .title h1{
+
+.section .title h1 {
   font-size: 1rem;
   text-shadow: none;
   color: #fff;
   list-style-type: none;
-text-decoration: none;
-font-weight: 500;
+  text-decoration: none;
+  font-weight: 500;
 }
-#link{
+
+#link {
   text-decoration: none;
 }
+
 .section h1 {
   color: darkblue;
   font-size: 4.5rem;
@@ -124,4 +128,15 @@ form input {
   background: darkblue;
   color: #fff;
   border: none;
+}
+
+.signing {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  background-color: #fff;
 }

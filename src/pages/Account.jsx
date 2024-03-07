@@ -1,21 +1,23 @@
 import { UserAuth } from "../context/AuthContext";
-export default function Account() {
-    // const { user, logOut } = UserAuth();
-    const Account = () => {
-        const { logOut, user } = UserAuth();
-        const handleSignOut = async () => {
-            try {
-                await logOut();
-            } catch (error) {
-                console.log(error)
-            }
+
+
+const Account = () => {
+    const { logOut, user } = UserAuth();
+    const handleSignOut = async () => {
+        try {
+            await logOut();
+        } catch (error) {
+            console.log(error)
         }
-        return (
-            <div className="acount">
-                <h1>Account</h1>
+    };
+    return (
+        <div className="account">
+            <h1>Connect Account</h1>
+            <div className="">
                 <p>Welcome, {user?.displayName}</p>
-                <button onClick={handleSignOut}>LogOut</button>
             </div>
-        )
-    }
+            <button onClick={handleSignOut}>Loggut</button>
+        </div>
+    )
 }
+export default Account;
