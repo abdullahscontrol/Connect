@@ -26,17 +26,25 @@
     text-align: justify;
 }
 
+.welcome .others {
+    font-size: 1.8rem;
+}
+
+.cent {
+    display: flex;
+}
+
 .cards {
-    display: inline;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    border: 3px solid red;
+    align-items: center; */
+    /* border: 3px solid red; */
 }
 
 .card {
     width: 28vw;
-    height: 25rem;
+    height: 27rem;
     display: flex;
     flex-direction: column;
     box-shadow: 2px 2px 10px rgb(32, 10, 2);
@@ -61,9 +69,16 @@
     /* background: rgb(12, 12, 46); */
     padding: 1rem;
     font-size: 2rem;
-    background-color: #291049;
+    background-color: darkblue;
     padding: 1rem;
     color: #fff;
+}
+
+.card-content {
+    color: #000;
+    font-size: 1.5rem;
+    padding: 1rem;
+
 }
 
 .explore-more {
@@ -77,4 +92,13 @@
     text-shadow: 2px 2px 1px darkblue;
     font-weight: 900;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.explore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 150vh;
+    margin-bottom: 1.5rem;
 }
